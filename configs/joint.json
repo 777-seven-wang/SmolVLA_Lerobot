@@ -1,0 +1,18 @@
+{
+  "name": "joint",
+  "policy": {
+    "train_expert_only": false,
+    "freeze_vision_encoder": true,
+    "train_state_proj": true
+  },
+  "parameter_storage": "float32",
+  "expected_trainable_parameters": 306471072,
+  "batch_size": 8,
+  "max_steps": 20000,
+  "budget_s": 28800,
+  "evaluation_steps": [
+    5000,
+    10000,
+    20000
+  ]
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.cache/
+*.tmp
+*.swp
+*.swo
+*.egg-info/
+build/
+dist/
+# 代码仓库不上传底层框架副本、离线输入、模型或实验运行产物。
+/lerobot/
+/experiments/
+/resources/

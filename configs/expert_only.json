@@ -1,0 +1,18 @@
+{
+  "name": "expert_only",
+  "policy": {
+    "train_expert_only": true,
+    "freeze_vision_encoder": true,
+    "train_state_proj": true
+  },
+  "parameter_storage": "native",
+  "expected_trainable_parameters": 99880992,
+  "batch_size": 8,
+  "max_steps": 20000,
+  "budget_s": 28800,
+  "evaluation_steps": [
+    5000,
+    10000,
+    20000
+  ]
+}
